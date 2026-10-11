@@ -1,0 +1,121 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Valentine Letter</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Kalam&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <!-- ENVELOPE SCREEN -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Letter for You ♡</p>
+    </div>
+
+    <!-- LETTER SCREEN -->
+    <div id="letter-container">
+
+      <div class="letter-window">
+
+        <h1 id="letter-title">Will you be my BOYFRIENDDD?</h1>
+
+        <!-- CAT -->
+        <img src="cat_heart.gif" class="cat" id="letter-cat" />
+
+        <!-- YES / NO BUTTONS -->
+        <div class="buttons" id="letter-buttons">
+
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div>
+
+        </div>
+
+        <!-- FINAL TEXT -->
+        <p id="final-text" class="final-text" style="display: none">
+          <strong>HEHEHEHE</strong> I Love You Babyyy you cant escape Now !!!!
+        </p>
+
+        <!-- CLICK HERE -->
+        <img
+          src="click.png"
+          id="click-here-btn"
+          alt="Click Here"
+          style="display: none;"
+        />
+
+        <!-- YOUR ORIGINAL LOVE LETTER -->
+        <div id="love-letter">
+          <p>
+            MY LOVE💗<br><br>
+
+            hehe.. i love youu pratik, what should i say idkkk but im so sad that i was being itna ignoring yeaa im genuinely very sorry for
+            that, i will be better okie baby i promise, you are nice and im so so so blessedddddd to have you. take care of yourself okie, You
+            really deserve the whole world, take care of your health your teeth too,be fit and healthy okie, there's so much life ahead of you.
+            We'll live our life together okie hehe what am i even writing, . idk what am i even doing, idk if this will work or not, idk if this letter will ever reach or not. aahhh my 2 iq brain but anyways lets see.
+            but yk i lovee youuu and im so so disappointed with myself, so dumb of me but ill be better "dont be sorry,be better" ill follow
+            your instruction. ohh I miss you so much i miss our time together yess, we'll meet again yeeeeeee i cant waitttt. oh btw its oct
+            month again, sucha nostalic, last oct was so different hehe ,there was so much tension in our text hehe, and videoo call.... yeaaee
+            how I said "lets do video call" then i didnt, so bad of me.but still last october was greattt, holds our memories. hehe. its almost
+            1 year to relationship na. hehehe.i cant believe my luck i swear(bhagwan ho aap)<br><br>
+
+            bohot sundar ho aap you are bestttt person cutest person alive, veryyy sweet mere sath rhena okie sath rahenge humesha i love you, you are lovable, kind. caring respectful,handsome,sweet ,charming and na i loveeeeee loving you i love to adore you, i love being yours hehehhehe you deserve bohotttt saraaa love and still it wont be enough because youll more than that obvvv hehe i love youuuu and ill be better and bestttt as you are. i promise i will always support you, i wont say anything gusse mein I'll try to understand you jaise you do i promise ill be better i loveee youuu hehe<br><br>
+
+            its almost 1 year to our love~~~ awww i still remember those new new video calls we had which lead to this hehe yk that first video call we had which was just 15 min long aaahhhh i was eaating and you were "ring a ring a roses" hehe and then to 7th of november "firse bol" whaaaaaaaaa its so overwhelming...... then how we used to call raatme and so manyyyyyy "i love you" then getting goosebumps and so manyyy songsssss "pyar hua ikrar hua hehe" you are cute "solid ladka" ho na aap hehe. aahhhh longgg distanceeee hehe its still better yk because not having you is much harder 
+          </p>
+        </div>
+
+        <!-- MORE LOVE BUTTON: BELOW THE LETTER -->
+        <button id="more-love-btn" style="display: none;">
+          more love ♡
+        </button>
+
+      </div>
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="background-music" loop>
+      <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+   
+<!-- RAIN OF MEMORIES SCREEN -->
+
+<div id="memories-screen" style="display: none;">
+  <img src="wallpaper.jpeg" id="memory-wallpaper" alt="Wallpaper">
+
+  <h1 id="ticket-heading">Pick your tickets ♡</h1>
+
+  <div id="ticket-rain"></div>
+  
+<div id="ticket-message-screen" style="display: none;">
+  <div class="message-card">
+    <button id="close-ticket-message">♡ Back to tickets</button>
+    <h2 id="ticket-message-title">A little message for you 💌</h2>
+    <p id="ticket-message-text"></p>
+  </div>
+</div>
+
+</div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
